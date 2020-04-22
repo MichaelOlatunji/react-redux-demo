@@ -1,6 +1,6 @@
-import { buyCake } from "./cake/cakeActions";
-import { buyIceCream } from './iceCream/iceCreamActions'
-import { buyChocolate } from './chocolate/chocolateActions';
+export { buyCake } from "./cake/cakeActions";
+export { buyIceCream } from './iceCream/iceCreamActions'
+export { buyChocolate } from './chocolate/chocolateActions';
+export * from './user/userActions'
 
-export { buyCake, buyIceCream, buyChocolate }
 
