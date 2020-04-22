@@ -15,7 +15,7 @@ const User = ({userData, fetchUsers}) => {
                     <h3>User List</h3>
                     <div>
                         {
-                            userData && userData.users && userData.users.map(user => <p>{user.name}</p>)
+                            userData && userData.users && userData.users.map(user => <p>{user.id}. { user.name}</p>)
                         }
                     </div>
                 </div>

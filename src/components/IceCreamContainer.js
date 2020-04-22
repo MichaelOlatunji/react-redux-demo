@@ -6,9 +6,9 @@ const iceCreamContainer = props => {
 
     return (
         <div>
-            <h3>Number of Cake: {props.numOfIceCreams}</h3>
+            <h3>Number of Ice Cream: {props.numOfIceCreams}</h3>
 
-            <button onClick={props.buyIceCream}>Buy Cake</button>
+            <button onClick={props.buyIceCream}>Buy Icecream</button>
         </div>
     )
 }
